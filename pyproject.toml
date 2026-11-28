@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "legal_qa"
+version = "0.1.0"
+description = "NLP Final Project 2026 - Legal QA over US housing law (HousingQA): M1 scratch T5, M2 fine-tuned Flan-T5-small, M3 BM25 RAG"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]

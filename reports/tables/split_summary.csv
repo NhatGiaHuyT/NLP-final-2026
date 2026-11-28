@@ -1,0 +1,5 @@
+split,n_questions,share,n_groups,n_states,n_yes,n_no,yes_ratio
+train,5505,0.631,180,48,1963,3542,0.357
+val,650,0.075,22,48,191,459,0.294
+test,689,0.079,23,48,257,432,0.373
+train_aux,1877,0.215,179,42,614,1263,0.327

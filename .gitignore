@@ -1,0 +1,114 @@
+# =====================================================================
+# Project-specific
+# =====================================================================
+# Raw HousingQA download (~4 GB statutes corpus) - re-download from HF
+data/raw/*
+!data/raw/.gitkeep
+
+# BM25 indexes - rebuildable via notebooks/03-build-corpus-index.ipynb
+data/index/*
+!data/index/.gitkeep
+
+# NOTE: data/processed/*.jsonl IS committed so the whole team uses the same split.
+
+# Model checkpoints (hundreds of MB) - store on Google Drive instead
+models/*
+!models/.gitkeep
+
+# Training artifacts / logs
+checkpoints/
+runs/
+logs/
+outputs/
+lightning_logs/
+wandb/
+mlruns/
+*.log
+
+# Large / binary model & data files anywhere in the repo
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.parquet
+*.arrow
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# Hugging Face local caches
+.cache/
+hf_cache/
+huggingface/
+
+# =====================================================================
+# Python
+# =====================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# =====================================================================
+# Jupyter / Colab
+# =====================================================================
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# =====================================================================
+# IDE / Editor
+# =====================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# =====================================================================
+# OS
+# =====================================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+Desktop.ini
+
+# Office temp files (e.g. while docs/*.docx is open)
+~$*
+
+#Other
+/docs

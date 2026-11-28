@@ -1,0 +1,24 @@
+# Core deep learning (Colab already ships torch - skip reinstalling it there)
+torch>=2.1
+transformers>=4.40
+accelerate>=0.30
+sentencepiece>=0.2      # T5 tokenizer
+datasets>=2.19          # load_dataset (chỉ datasets<4 chạy được loading script của HousingQA)
+huggingface_hub>=0.23   # fallback: tải file zip gốc khi load_dataset lỗi
+
+# Retrieval (M3)
+bm25s>=0.2
+PyStemmer>=2.2          # optional stemmer for bm25s
+
+# Data & evaluation
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.4       # GroupShuffleSplit, f1_score
+tqdm>=4.66
+
+# Visualization
+matplotlib>=3.8
+seaborn>=0.13
+
+# Notebooks
+ipykernel>=6.29

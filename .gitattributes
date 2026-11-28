@@ -1,0 +1,14 @@
+# Normalize line endings (team works on Windows + Colab/Linux)
+* text=auto eol=lf
+
+*.bat  text eol=crlf
+*.ps1  text eol=crlf
+
+# Binary files
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.pdf  binary
+*.docx binary
+*.pptx binary
+*.xlsx binary

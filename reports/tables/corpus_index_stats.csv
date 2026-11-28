@@ -1,0 +1,49 @@
+state,slug,n_statutes,n_chunks,chunks_per_statute,question_leaks,build_seconds
+Alabama,alabama,43768,134147,3.06,0,27.1
+Alaska,alaska,17706,50608,2.86,0,10.5
+Arizona,arizona,15259,63072,4.13,0,11.2
+Arkansas,arkansas,33857,106483,3.15,0,14.3
+California,california,155974,412247,2.64,0,39.3
+Colorado,colorado,30056,198907,6.62,0,21.2
+Connecticut,connecticut,25832,147484,5.71,0,15.3
+Delaware,delaware,20294,79442,3.91,0,8.2
+District of Columbia,district-of-columbia,23433,115592,4.93,0,11.7
+Florida,florida,24329,143078,5.88,0,14.7
+Georgia,georgia,28679,166851,5.82,0,16.7
+Hawaii,hawaii,21273,77937,3.66,0,7.3
+Idaho,idaho,22571,78082,3.46,0,7.3
+Illinois,illinois,38196,134146,3.51,0,10.3
+Indiana,indiana,70752,143676,2.03,0,12.0
+Iowa,iowa,38203,104360,2.73,0,9.0
+Kansas,kansas,28309,106257,3.75,0,9.9
+Louisiana,louisiana,49988,180061,3.6,0,13.6
+Maine,maine,44918,139764,3.11,0,13.2
+Maryland,maryland,36971,110292,2.98,0,10.7
+Massachusetts,massachusetts,24131,92983,3.85,0,8.8
+Michigan,michigan,42481,167454,3.94,0,16.0
+Mississippi,mississippi,26856,90384,3.37,0,7.9
+Missouri,missouri,29632,117945,3.98,0,12.5
+Montana,montana,43305,108281,2.5,0,8.8
+Nebraska,nebraska,39074,118456,3.03,0,10.8
+Nevada,nevada,48302,127854,2.65,0,11.0
+New Hampshire,new-hampshire,28827,79663,2.76,0,7.7
+New Jersey,new-jersey,54513,167719,3.08,0,12.5
+New Mexico,new-mexico,30290,143454,4.74,0,13.3
+New York,new-york,37049,229745,6.2,0,17.7
+North Carolina,north-carolina,28750,114139,3.97,0,10.7
+Ohio,ohio,32662,155321,4.76,0,12.6
+Oklahoma,oklahoma,31620,123352,3.9,0,11.6
+Oregon,oregon,46510,138031,2.97,0,12.6
+Puerto Rico,puerto-rico,30917,103947,3.36,0,11.0
+Rhode Island,rhode-island,32899,97931,2.98,0,9.4
+South Carolina,south-carolina,30418,97273,3.2,0,7.7
+South Dakota,south-dakota,39412,71880,1.82,0,6.6
+Tennessee,tennessee,32157,108991,3.39,0,10.8
+Texas,texas,117589,262044,2.23,0,21.6
+Utah,utah,26261,98719,3.76,0,8.3
+Vermont,vermont,22849,76104,3.33,0,7.2
+Virginia,virginia,31313,113004,3.61,0,10.7
+Washington,washington,50091,175246,3.5,0,29.9
+West Virginia,west-virginia,25580,100000,3.91,0,18.3
+Wisconsin,wisconsin,17739,123416,6.96,0,22.2
+Wyoming,wyoming,15777,51486,3.26,0,8.8

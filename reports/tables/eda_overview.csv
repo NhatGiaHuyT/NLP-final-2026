@@ -1,0 +1,3 @@
+subset,n_questions,n_states,n_question_groups,n_yes,n_no,yes_ratio,has_statute_idx
+questions,6853,48,226,2414,4439,0.352,True
+questions_aux,9297,55,226,3211,6086,0.345,False
